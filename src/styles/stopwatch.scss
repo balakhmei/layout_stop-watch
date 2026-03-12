@@ -24,7 +24,7 @@
       height: 20vmin;
       width: 3vmin;
       background: $color-minutes;
-      animation: rotate 3600s infinite;
+      animation: rotate 3600s steps(60) infinite;
     }
 
     &--seconds {
